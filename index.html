@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=[device-width], initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Clone Web Player</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar -->
     <div class="nav">
       <!-- Logo -->
-      <h1 class="title">isso é um logo</h1>
+      <div class="logo">
+        <i data-feather="activity"></i>
+
+        <span class="logo-title">Groovvy</span>
+      </div>
 
       <!-- Lista 1 -->
       <div class="menu">
         <h2>Menu</h2>
 
         <ul>
-          <li>Explore</li>
-          <li>Genres</li>
+          <li>
+            <i data-feather="play-circle"></i>
+            Explore
+          </li>
+          <li>
+            <span class="material-icons-outlined">pie_chart</span>
+            Genres
+          </li>
           <li>Albuns</li>
           <li>Artists</li>
           <li>Radio</li>
@@ -57,6 +72,11 @@
     <!-- Conteudo -->
     <div class="container">
       <h1 class="">Eu sou o conteudo</h1>
+      <p>Texto</p>
     </div>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
